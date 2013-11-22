@@ -1,0 +1,206 @@
+
+* {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+html {
+	background-color: #D8CDE1;
+}
+
+body {
+	margin: 0;
+}
+
+.centerit {
+	width: 80%;
+	padding-left: 15%;
+}
+
+img {
+	padding-top: 5%;
+	width: 100%;
+}
+
+form {
+	margin: 2%;
+}
+
+.spacer {
+	padding-bottom: 2%;
+}
+
+.please {
+	color: #6E1B8C;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1em;
+}
+
+.space {
+	padding-top: 5%;
+}
+
+h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: .75em;
+	padding-left: 55%;
+	margin-top: -10%;
+}
+
+label,
+legend {
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #6B19A3;
+	font-size: 1em;
+	font-weight: 500;
+	
+	cursor: pointer;
+}
+
+input,
+textarea {
+	font-size: 1rem;
+	margin-bottom: 2%;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+.howmuch {
+	font-weight: 300;
+	font-weight: bold;
+	padding-bottom: 8%;
+}
+
+.input-text {
+	padding: 0.5em 0.5em;
+	width:  100%;
+	
+	background-image: linear-gradient(to bottom, #fff, #EDEAED);
+	border: 1px solid #ccc;
+	
+	font-size: 1rem;
+}
+
+input + label { 
+	display: inline-block;
+}
+
+.buttons {
+	display: inline-block;
+	width: 50px;
+}
+
+
+.error {
+	display: block;
+	color: #AF02B9;
+	font-size: .5em;
+	font-weight: lighter;
+	font-weight: 100;
+}
+
+.input-error {
+	border: 1px solid #A311A7;
+}
+
+fieldset {
+	display: inline-block;
+}
+
+.radio {
+	color: #5B0091;
+	font-weight: 300;
+	display: inline;
+	width: 40px;
+}
+
+.submitbutton {
+	padding-top: 10%;
+	padding-left: 45%;
+}
+
+
+@media only screen and (min-width: 20em) {
+
+
+h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 1em;
+	padding-left: 55%;
+	margin-top: -10%;
+}
+
+	
+}
+
+@media only screen and (min-width: 28em) {
+
+
+h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 1.5em;
+	padding-left: 55%;
+	margin-top: -10%;
+}
+
+button {
+	width: 100%;
+	margin-left: -12%;
+}
+
+	
+}
+
+@media only screen and (min-width: 40em) {
+
+
+h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 2em;
+	padding-left: 55%;
+	margin-top: -10%;
+}
+
+button {
+	width: 100%;
+	margin-left: -12%;
+	padding: 5%;
+	border-radius: 5px;
+	color: #000;
+	background-color: #fff;
+}
+
+	
+}
+
+@media only screen and (min-width: 65em) {
+
+h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 3em;
+	padding-left: 55%;
+	margin-top: -10%;
+}
+
+button {
+	width: 100%;
+	margin-left: -30%;
+	padding: 5%;
+	border-radius: 5px;
+	color: #000;
+	background-color: #fff;
+}
+
+	
+}
+

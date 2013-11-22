@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fantasy Book Club</title>
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+<link href="css/general.css" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<img src="images/fantasy-banner.jpg" alt="Fantasy Book Club Banner">
+
+			<h1 class="banner-link">Fantasy Book Club</h1>
+
+<div class="space">
+</div>
+
+
+<form>
+
+<div class="centerit">
+	<h2 class="please">Please fill out our Book Club Application if interested:</h2>
+	<div class="spacer">
+		<label for="name">
+		Name<br>
+		<strong class="error">Name Required</strong>
+		</label>
+		<input type="text" id="name" class="input-text input-error" required>
+	</div>
+
+	<div class="spacer">
+		<label for="email">
+		E-mail Address<Br>
+		<strong class="error">Email Address Required</strong>
+		</label>
+		<input type="email" id="email" class="input-text input-error" required>
+	</div>
+	
+	<div class="spacer">
+		<label for="phone">Phone</label> 
+		<input type="tel" id="phone" maxlength="17" class="input-text input-error">
+	</div>
+	
+	<div class="spacer">
+		<label for="address">Address</label> 
+		<input name="address" type="text" required class="input-text input-error" id="address">
+	</div>
+	
+	<div class="spacer">
+		<label for="city">City</label> 
+		<input type="text" id="city" class="input-text input-error" required>
+	</div>
+	
+	<div class="spacer"> <!--dropdown menu -->
+		<label for="province">Province</label>
+			<select id="province" required>
+				<option>Newfoundland</option>
+				<option>Prince Edward Island</option>
+				<option>Nova Scotia</option>
+				<option>New Brunswick</option>
+				<option>Quebec</option> 
+				<option>Ontario</option> 
+				<option>Manitoba</option> 
+				<option>Saskatchewan</option> 
+				<option>Alberta</option> 
+				<option>british Columbia</option> 
+			</select>
+	</div>
+	
+	<div class="spacer">
+		<label for="postal">Postal Code</label> 
+		<input type="text" id="postal" maxlength="7" class="input-text input-error" required>
+	</div>
+	
+	<div class="spacer">
+		<label for="time">What time of day would you like to meet?</label> 
+		<input type="datetime-local" id="time" class="input-text input-error" required>
+	</div>
+	
+	<div class="spacer">
+		<label for="number">How many books have you read this year?</label> 
+		<input type="number" id="number" class="input-text input-error">
+	</div>
+
+	<div class="spacer">
+		<label for="bio">Describe your favourite book & author</label>
+		<textarea id="bio" class="input-text input-error"></textarea>
+	</div>
+	
+	<fieldset>
+		<legend class="howmuch">How much do you love this genre?</legend>
+
+		<div>
+		<label for="notafan" class="radio">Not a Fan</label>
+		<input  type="radio" id="somewhatdislike" name="satisfaction">
+		</div>
+		<div>
+		<label for="dislike" class="radio">Dislike</label>
+		<input type="radio" id="dislike" name="satisfaction">
+		</div>
+		<div>
+		<label for="neutral" class="radio">Neutral</label>
+		<input type="radio" id="neutral" name="satisfaction">
+		</div>
+		<div>
+		<label for="like" class="radio">Like</label>
+		<input type="radio" id="like" name="satisfaction">
+		</div>
+		<div>
+		<label for="lovelike" class="radio">Love</label>
+		<input type="radio" id="lovelike" name="satisfaction">
+		</div>
+	</fieldset>
+	
+	<div class="submitbutton">
+	<button type="submit">Submit</button>
+	</div>
+	
+</div>	
+</form>
+
+
+</body>
+</html>
